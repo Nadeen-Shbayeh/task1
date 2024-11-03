@@ -1,0 +1,272 @@
+
+.mainContent {
+  display: flex;
+  
+  
+}
+
+
+.profilecontainer {
+  flex: 1;
+  margin-top: 44px; 
+  margin-left: 2%; /* Reduce the margin to create a more balanced look */
+  margin-right: 2%; 
+  background-color: #F7F8FA;
+  border-radius: 20px  0 0 0;
+  padding: 20px;
+  padding-bottom: 20px;
+  
+  
+ 
+ 
+}
+
+.profileContent {
+  flex: 1;
+  margin: 10px 2%;
+  background-color: #ffffff;
+  border-radius: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+ 
+
+}
+.profilebody {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #F7F8FA;
+  border-radius: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  margin: 10px 2%;
+  
+  
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e0;
+  padding: 15px ;
+  
+  
+}
+
+.sidenav button {
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+.p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidenav button:hover,
+.sidenav button.activeButton {
+  background-color: #ffffff;
+  border-radius: 40px;
+  
+}
+
+.content {
+  flex: 1;
+  margin-left: 20px;
+  background-color:#F7F8FA;
+  border-radius: 10px;
+  
+}
+
+.activeButton {
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+.heading {
+  font-size: 18px;
+  padding: 20px 0px 0px 20px;
+  font-family: "Inter", sans-serif; 
+}
+
+
+.subHeading {
+  padding: 1px 0px 0px 20px;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #1E1E1E; /* Adjust color for better visibility */
+  opacity: 90%;
+  font-family: "Inter", sans-serif; /* Use the same font for consistency */
+}
+
+
+
+.infoRow {
+  display: grid;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 14px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.infoBox {
+  flex: 1;
+  background-color: #FFF; /* Light gray background */
+  padding: 20px;
+ 
+  font-family: "Inter", sans-serif;
+  color: #333;
+  
+  
+}
+
+
+.infoContent {
+  display: flex;
+  
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  
+  margin-right: 10px;
+}
+
+.nameAndRating {
+  display: grid;
+ 
+  
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+
+  
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+  background-color: #F7F8FA;
+  width: 100px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.starIcon {
+  color: #FEAE37; 
+  margin-right: 4px;
+}
+
+.rating {
+  
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.websiteButton {
+  
+  
+  padding: 10px 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: rgba(61, 189, 188, 0.1); /* Background with 10% opacity */
+  color: #3DBDBC; 
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  height: 35px;
+  width: 125px;
+ 
+}
+.linkicon{
+  margin-left: 10px;
+  
+}
+
+
+.infoBox:nth-child(2) {
+  background-color: #F7F8FA;
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  padding: 20px; /* Add padding around the box */
+  border-radius: 14px;
+}
+
+.infoContent2 {
+  
+  display: flex;
+  flex-direction: row; /* Stack elements vertically */
+  justify-content: space-between; /* Space out elements across the width */
+  align-items: center; /* Center elements vertically */
+  width: 100%; /* Make the content span the full width */
+}
+
+.iconWithText {
+  display: flex;
+ margin-top: 10px;
+ 
+}
+
+.contactDetails {
+  display: grid;
+  text-align: left;
+ 
+}
+
+.label {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+  margin-top: 4px;
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+.value {
+ 
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.locationIcon,
+.phoneIcon,
+.emailIcon {
+  margin-right: 5px;
+  text-align: left;
+  margin-top: 2px;
+}
+
+
+.infoBox:nth-child(3) {
+  margin-top: 20px;
+  background-color: #F7F8FA;
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  padding: 20px; /* Add padding around the box */
+  border-radius: 14px;
+}

@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  z-index: 10;
+  top: 20px;
+  position: relative;
+  padding: 0 20px;
+  height: 80px;
+ 
+  flex-wrap: wrap; /* Allow wrapping of items if there's not enough space */
+}
+
+.logoIcon {
+  margin-right: auto; /* Push the logo to the left */
+}
+
+.searchAndLanguage {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1; /* Allow this section to grow and shrink */
+  min-width: 300px; /* Minimum width to maintain usability */
+  justify-content: flex-end; /* Align all items to the right */
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Use full width and let the input shrink */
+  max-width: calc(63% - 120px); /* Adjust max width based on other elements */
+  height: 55px;
+  border-radius: 48px;
+  background-color: #F7F8FA;
+  padding: 5px 15px;
+ 
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F7F8FA;
+  font-size: 16px;
+  flex: 1; /* Allows the input to take the remaining space */
+}
+
+.languageButton {
+  height: 55px;
+  padding: 0 16px;
+  background-color: #F7F8FA;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.notificationIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #F7F8FA;
+  padding: 12px;
+  cursor: pointer;
+}
+
+/* Profile Container Styles */
+.profileContainer {
+  width: 162px; /* Set width of profile container */
+  height: 40px; /* Set height of profile container */
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: #F7F8FA;
+  margin-left: 8px; /* Space between the notification icon and profile */
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column; /* Stack name and role vertically */
+  margin-left: 10px; /* Space between image and text */
+}
+
+.profileName {
+  font-size: 12px; /* Adjust font size for the name */
+  font-weight: bold; /* Bold the name for emphasis */
+}
+
+.profileRole {
+  font-size: 10px; /* Smaller font size for the role */
+  color: #888; /* Lighter color for the role */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .searchAndLanguage {
+    width: 100%; /* Full width for smaller screens */
+    justify-content: space-between; /* Align items with space */
+  }
+
+  .searchContainer {
+    width: calc(100% - 150px); /* Adjust width of search input */
+  }
+
+  .languageButton {
+    width: 150px; /* Fixed width for language button */
+  }
+
+  .profileContainer {
+    width: 162px; 
+    height: 40px; 
+    border-radius: 48px; 
+    display: flex;
+    align-items: center;
+    padding: 12px; 
+    background-color: #F7F8FA;
+  }
+}

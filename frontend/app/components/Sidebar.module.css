@@ -1,0 +1,109 @@
+
+.sidebar {
+  flex-direction: column;
+  display: flex;
+  width: 250px;
+  
+  
+
+}
+
+.welcomeMessage {
+  position: absolute;
+  font-size: 26px;
+  font-weight: bold;
+  width: 236px;
+  height: 66px;
+  top: 115px; /* Set the vertical position */
+  left: 44px; /* Set the horizontal position */
+  color: #333;
+  font-family: 'Poppins', sans-serif; /* Ensure you have a fallback font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+}
+
+
+
+.menuList {
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 0; /* Remove default padding */
+  font-size: 16px; /* Adjust font size to make text smaller */
+  margin-left: 44px;
+  margin-top: 116px;
+
+}
+
+
+
+.menuList a {
+  
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  border-radius: 40px;
+ 
+}
+
+
+
+.icon {
+  margin-right: 20px; /* Space between icon and text */
+  
+}
+
+/* Optional: Styles for the active link */
+.active a {
+  font-weight: bold;
+  color: #fbfbfb;
+  background-color: black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+/* Log Out styling */
+.logout {
+  margin-top: auto; /* Push this to the bottom */
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 40px;
+  margin-left: 44px;
+  background-color: #f7f8fa;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logout a {
+  color: #333; /* Set the text color */
+  text-decoration: none; /* Remove underline */
+  display: flex;
+  align-items: center;
+
+}
+
+.logout .icon {
+  margin-right: 10px; /* Add some space between the icon and the text */
+}
+
+
+
+.chatButton {
+  background-color: rgba(61, 189, 188, 0.1); /* Background with 10% opacity */
+  color: #3DBDBC; /* Blue text */
+  border-radius: 44px;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid #a8e4e4; 
+}
+
+.chatButton .icon {
+  margin-right: 15px; /* Space between icon and text */
+}
+
+.chatButton a {
+  color: #3DBDBC; /* Ensure text within the link stays blue */
+}
+
