@@ -29,7 +29,7 @@ const  Navbar: React.FC<NavbarProps> =({ userData }) => {
           </span>
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="Search"
             className={styles.searchInput}
           />
         </div>
@@ -59,7 +59,7 @@ const  Navbar: React.FC<NavbarProps> =({ userData }) => {
 
       <div className={styles.profileInfo}>
         <span className={styles.profileName}>{userData?.name || "Guest"}</span>
-        <span className={styles.profileRole}>Software Engineer</span>
+        <span className={styles.profileRole}>Product Manager</span>
       </div>
     </div>
       </div>

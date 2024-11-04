@@ -45,6 +45,10 @@
   font-size: 16px;
   flex: 1; /* Allows the input to take the remaining space */
 }
+.searchIcon{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .languageButton {
   height: 55px;
